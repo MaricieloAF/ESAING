@@ -1,0 +1,73 @@
+:root {
+  /* Colores principales */
+  --color-primary: #465D8A; /* Color principal: para botones y enlaces principales */
+  --color-primary-hover: #3a4e77; /* Hover para el color principal */
+  
+  --color-secondary: #4A8594; /* Color secundario: para acentos y elementos destacados */
+  --color-secondary-hover: #3b6b75; /* Hover para el color secundario */
+  
+  --color-tertiary: #9BB1BA; /* Color terciario: para fondos suaves o acentos secundarios */
+  --color-tertiary-hover: #87a0a9; /* Hover para el color terciario */
+
+  /* Colores oscuros */
+  --color-dark: #5D416B; /* Para títulos o elementos oscuros sobre fondos claros */
+  --color-dark-muted: #4b3455; /* Variación más tenue para texto deshabilitado o sutil */
+
+  /* Colores de alerta o estado */
+  --color-error: #8C505E; /* Para mensajes de error y alertas */
+  --color-error-hover: #743e4a; /* Hover para mensajes de error */
+  --color-success: #4CAF50; /* Para estados exitosos, como mensajes o badges */
+  --color-success-hover: #3e8b42; /* Hover para estados exitosos */
+  --color-warning: #FFC107; /* Para advertencias o alertas suaves */
+  --color-warning-hover: #e0a806; /* Hover para advertencias */
+
+  /* Colores de fondo */
+  --color-background-light: #ffffff; /* Fondo principal claro */
+  --color-background-dark: #f2f4f6; /* Fondo secundario o para secciones */
+  --color-background-accent: #e6ecf1; /* Fondos suaves para tarjetas o acentos */
+  --color-background-overlay: rgba(0, 0, 0, 0.5); /* Overlay oscuro para superponer sobre imágenes */
+
+  /* Colores de texto */
+  --color-text-light: #ffffff; /* Texto claro (sobre fondos oscuros) */
+  --color-text-dark: #333333; /* Texto principal (sobre fondos claros) */
+  --color-text-muted: #666666; /* Texto secundario o deshabilitado */
+
+  /* Colores de bordes y sombras */
+  --color-border: #d3dce4; /* Bordes para elementos como inputs o tarjetas */
+  --color-border-dark: #b0b8c2; /* Bordes más oscuros para contrastes */
+  --color-shadow: rgba(0, 0, 0, 0.2); /* Sombra suave para tarjetas y botones */
+
+  /* Ejemplo de degradados */
+  --color-gradient-primary: linear-gradient(90deg, #465D8A, #4A8594); /* Degradado con colores primarios */
+  --color-gradient-secondary: linear-gradient(90deg, #4A8594, #9BB1BA); /* Degradado secundario */
+
+  /* Tipografía */
+  --font-title: "Titillium Web", sans-serif;
+  --font-body: "Trirong", serif;
+  --font-display: "Forum", serif;
+
+  /* Espaciado global */
+  --spacing-xs: 4px; /* Muy pequeño: bordes o separaciones mínimas */
+  --spacing-small: 8px; /* Pequeño: padding entre elementos pequeños */
+  --spacing-medium: 16px; /* Mediano: padding estándar o márgenes */
+  --spacing-large: 24px; /* Grande: espaciado de secciones */
+  --spacing-xl: 32px; /* Muy grande: márgenes o padding de secciones importantes */
+  --spacing-xxl: 48px; /* Extra grande: espaciados en páginas completas */
+  --spacing-none: 0; /* Sin espaciado */  
+
+  /* Breakpoints */
+  --breakpoint-mobile: 768px;
+  --breakpoint-desktop: 1024px;
+
+  --color-accent: #9BB1BA; /* Color del subrayado */
+
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+

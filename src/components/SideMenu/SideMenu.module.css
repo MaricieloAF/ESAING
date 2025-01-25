@@ -1,0 +1,52 @@
+.sideMenu {
+    position: fixed;
+    top: 0;
+    right: -100%; /* Inicialmente oculto fuera de la pantalla */
+    width: 80%; /* Ocupa el 80% del ancho */
+    height: 100vh; /* Altura completa de la ventana */
+    background-color: var(--color-background-light);
+    box-shadow: -4px 0 8px var(--color-shadow); /* Sombra para el borde izquierdo */
+    transition: transform 0.3s ease; /* Animación de deslizamiento */
+    z-index: 1000; /* Asegura que esté encima de otros elementos */
+  }
+  
+  .sideMenu.open {
+    transform: translateX(-100%); /* Menú visible, deslizado desde la derecha */
+  }
+  
+  .header {
+    display: flex;
+    justify-content: flex-end;
+    padding: var(--spacing-medium);
+  }
+  
+  .closeButton {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--color-dark);
+  }
+  
+  .navList {
+    list-style: none;
+    padding: var(--spacing-large);
+    margin: 0;
+  }
+  
+  .navList li {
+    margin-bottom: var(--spacing-medium);
+  }
+  
+  .navList a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: var(--font-title);
+    color: var(--color-dark);
+    transition: color 0.3s ease;
+  }
+  
+  .navList a:hover {
+    color: var(--color-accent);
+  }
+  
